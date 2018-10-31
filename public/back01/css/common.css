@@ -22,7 +22,11 @@ a.active {
 .red {
     color:red;
 }
-
+.content .table th,
+.content .table td {
+    vertical-align: middle;
+    text-align:center;
+}
 
 
   /*  */
@@ -146,4 +150,8 @@ body {
     width: 48%;
     background: #069;
     height: 400px;
+}
+.content .table th,
+.content .table td {
+    vertical-align: middle;
 }
