@@ -30,10 +30,27 @@ $(function(){
   })
 });
 
-// 退出等录
+//模态框的 使用
 $(function(){
     $('.it_topbar .icon_logout').click(function() {
         
         $('#myModal').modal("toggle");
     })
 });
+// 退出等录
+$(function(){
+    $('#logoutBtn').click(function() {
+        
+        $.ajax ({
+            type:'get',
+            url:'/employee/employeeLogout',
+            dataType:'json',
+            success: function (info){
+                if (info.success) {
+                    location.href = "login.html";
+                }
+                
+            }
+        })
+    })
+}); 
