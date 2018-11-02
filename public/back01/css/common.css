@@ -153,11 +153,17 @@ body {
     background: #069;
     height: 400px;
 }
-.content .table th,
-.content .table td {
+ .table th,
+ .table td {
+    
+    text-align: center;
     vertical-align: middle;
 }
 
+.table.table-bordered th, .table.table-bordered td {
+    text-align: center;
+    vertical-align: middle;
+}
 
 .it_contents tbody img {
     width: auto;
@@ -169,4 +175,7 @@ body {
    height: 100px;
    width: 100px;
 
+}
+#productModal img {
+    display: inline-block;
 }
