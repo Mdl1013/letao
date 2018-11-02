@@ -157,3 +157,16 @@ body {
 .content .table td {
     vertical-align: middle;
 }
+
+
+.it_contents tbody img {
+    width: auto;
+    height: 50px;
+    margin: 0 auto;
+  }
+
+#imgbox img {
+   height: 100px;
+   width: 100px;
+
+}
